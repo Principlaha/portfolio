@@ -5,7 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   return (
-    <section className="absolute w-screen h-[20vh] bg-[#3c7b04] ">
+    <section className="absolute w-screen h-[20vh] bg-zinc-900 ">
       <div className="h-full flex flex-col justify-around">
         <h1 className="text-white text-center text-lg">
           Copyright © 2023 All rights reserved

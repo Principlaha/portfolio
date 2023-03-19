@@ -3,7 +3,7 @@ import data from "../data";
 
 const Portfolio = () => {
   return (
-    <section className="w-screen h-auto mt-64">
+    <section id="portfolio" className="w-screen h-auto mt-64">
       <h1 className="text-5xl text-center text-[#7ce604] pt-24">My Projects</h1>
       <div className="w-[80%] mx-auto flex justify-around flex-wrap mt-36">
         {data.map((cards, id) => {
@@ -18,11 +18,17 @@ const Portfolio = () => {
                 src={cards.image}
                 className="w-full h-full object-cover"
               />
-              <h3 className="relative top-[-95%] text-center text-white text-xl font-bold pt-4 text-center z-[100]">
-                {cards.heading}
-              </h3>
+              <div className="relative top-[-95%] text-center text-white pt-4 text-center z-[100]">
+                <h3 className="text-xl font-bold ">{cards.heading}</h3>
+                <p className="text-lg px-24 pt-12">
+                  <span className="relative text-[#B0FC38] font-bold opacity-100 z-[100]">
+                    Tools & Technologies used:{" "}
+                  </span>
+                  {cards.mainInfo}
+                </p>
+              </div>
               <a
-                className="text-white text-xl bg-[#3c7b04] border-8 border-[#3c7b04] top-[75%] left-[37%] px-3 py-1 absolute tracking-wide rounded-md z-[100]"
+                className="text-white text-xl bg-[#3c7b04] hover:bg-[#466d1d] top-[75%] left-[37%] px-6 py-3 absolute tracking-wide rounded-md z-[100]"
                 href={cards.link}
               >
                 Visit Github
