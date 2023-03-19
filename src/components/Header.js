@@ -33,8 +33,7 @@ const Header = () => {
         <div className="w-[60%] absolute top-[40%] left-[20%] text-white leading-[7rem] text-center">
           <h1 className="text-10xl tracking-wider">
             Hello I'm
-            <br />
-            <span className="text-[#7ce604]">Gurjeet Kaur</span>
+            <span className="block text-[#7ce604]">Gurjeet Kaur</span>
           </h1>
           <h3 className="text-3xl tracking-wider">Full-Stack Web Developer</h3>
         </div>
