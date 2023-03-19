@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import ParticleBackground from "./ParticleBackground";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import { useEffect, useState } from "react";
