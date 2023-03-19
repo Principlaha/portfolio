@@ -17,6 +17,7 @@ const Portfolio = () => {
                 height={300}
                 src={cards.image}
                 className="w-full h-full object-cover"
+                alt="image"
               />
               <div className="relative top-[-95%] text-center text-white pt-4 text-center z-[100]">
                 <h3 className="text-xl font-bold ">{cards.heading}</h3>

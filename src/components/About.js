@@ -16,7 +16,7 @@ const About = () => {
             <li className="py-3">
               <span className="text-[#7ce604] pr-2 font-bold">
                 Front-end Development:
-              </span>{" "}
+              </span>
               I have built multiple responsive and intuitive user interfaces
               using HTML, CSS, and JavaScript, implementing various design
               patterns and best practices to deliver exceptional user
@@ -25,7 +25,7 @@ const About = () => {
             <li className="py-3">
               <span className="text-[#7ce604] pr-2 font-bold">
                 Back-end Development:
-              </span>{" "}
+              </span>
               I have experience working with Node.js, Express, and other popular
               frameworks to build APIs, create and manage databases, and
               implement server-side logic.
@@ -33,7 +33,7 @@ const About = () => {
             <li className="py-3">
               <span className="text-[#7ce604] pr-2 font-bold">
                 Full Stack Development:
-              </span>{" "}
+              </span>
               I have built full-stack web applications, including e-commerce
               websites, social media platforms, and online marketplaces, using a
               combination of front-end and back-end technologies.
@@ -41,7 +41,7 @@ const About = () => {
             <li className="py-3">
               <span className="text-[#7ce604] pr-2 font-bold">
                 Deployment and Maintenance:
-              </span>{" "}
+              </span>
               I have experience deploying web applications to cloud platforms
               like AWS and Azure, and managing them using tools like Docker,
               Kubernetes, and Git.
@@ -49,7 +49,7 @@ const About = () => {
             <li className="py-3">
               <span className="text-[#7ce604] pr-2 font-bold">
                 Collaboration and Communication:
-              </span>{" "}
+              </span>
               I have collaborated with teams of developers, designers, and
               stakeholders to deliver projects on time and on budget, using
               agile development methodologies and effective communication
@@ -64,8 +64,7 @@ const About = () => {
             code that meets the needs of clients and end-users alike.
           </p>
           <p className="text-[#7ce604] pt-10 font-bold">
-            {" "}
-            Tools & technologies I've worked with:{" "}
+            Tools & technologies I've worked with:
             <span className="text-white font-normal">
               Javascript | Typescript | ReactJs | NextJs | VueJs | AngularJs |
               Redux | VueJs | AngularJs | NodeJs | GoLang | Cadence Flow
